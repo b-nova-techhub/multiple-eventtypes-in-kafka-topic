@@ -1,0 +1,1 @@
+# multiple-eventtypes-in-kafka-topic
