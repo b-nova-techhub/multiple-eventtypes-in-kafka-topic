@@ -1,0 +1,32 @@
+{
+  "namespace": "com.bnova",
+  "type": "record",
+  "name": "Techup",
+  "fields": [
+    {
+      "name": "title",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "slug",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "author",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "content",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "default": ""
+    }
+  ]
+}

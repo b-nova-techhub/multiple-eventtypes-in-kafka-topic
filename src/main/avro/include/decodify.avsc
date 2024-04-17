@@ -1,0 +1,40 @@
+{
+  "namespace": "com.bnova",
+  "type": "record",
+  "name": "Decodify",
+  "fields": [
+    {
+      "name": "episode",
+      "type": "int",
+      "doc": "The episode number.",
+      "default": 0
+    },
+    {
+      "name": "season",
+      "type": "int",
+      "doc": "The season number.",
+      "default": 0
+    },
+    {
+      "name": "topic",
+      "type": "string",
+      "doc": "The main topic of the episode.",
+      "default": ""
+    },
+    {
+      "name": "attendees",
+      "type": {
+        "type": "array",
+        "items": "string"
+      },
+      "doc": "A list of attendees or participants in the episode.",
+      "default": []
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "doc": "A brief description of the episode.",
+      "default": ""
+    }
+  ]
+}
